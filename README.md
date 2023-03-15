@@ -2,10 +2,10 @@
 This project demonstrates how to deploy a Reddit clone app on Kubernetes with Ingress and expose it to the world using Minikube as the cluster.
 
 ## AWS Instance details:
-OS : Ubuntu 22.04
-Servers :
-1.CI 
-2.Deployment
+-OS : Ubuntu 22.04
+-Servers :
+--1.CI 
+--2.Deployment
 
 ## Prerequisites
 Before you begin, you should have the following tools installed on your local machine: 
