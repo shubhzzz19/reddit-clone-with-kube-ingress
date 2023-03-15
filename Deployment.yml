@@ -18,4 +18,4 @@ spec:
       - name: reddit-clone
         image: shubhzzz19/reddit-clone
         ports:
-        - containerPort: 80
+        - containerPort: 3000
