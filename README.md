@@ -56,7 +56,7 @@ CMD ["npm","run","dev"]
 ## Step 3: Building Docker-Image
 Now it's time to build Docker Image from this Dockerfile.Use this command to build a docker image.
 ```
-docker build -t <DockerHub_Username>/<Imagename> .
+docker build . -t <DockerHub_Username>/<Imagename>
 ```
 
 ## Step 4: Push the Image To DockerHub
