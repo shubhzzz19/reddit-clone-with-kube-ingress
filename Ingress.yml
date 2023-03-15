@@ -14,11 +14,11 @@ spec:
             name: reddit-clone-service
             port:
               number: 80
-  - host: "*.domain.com"
+  - host: "*.reddit-clone.com"
     http:
       paths:
       - pathType: Prefix
-        path: "/test"
+        path: "/app"
         backend:
           service:
             name: reddit-clone-service
