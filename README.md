@@ -200,6 +200,7 @@ kubectl expose deployment reddit-clone-deployment --type=NodePort command.
 ```
 2) You can test your deployment using 
 ```
+minikube reddit-clone-service --url
 curl -L http://<minikube-ip>:31000
 ```
 Port 31000 is defined in Service.yml
