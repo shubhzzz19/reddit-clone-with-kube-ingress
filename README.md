@@ -4,8 +4,8 @@ This project demonstrates how to deploy a Reddit clone app on Kubernetes with In
 ## AWS Instance details:
 - OS : Ubuntu 22.04
 - Servers :
-  -- 1.CI 
-  -- 2.Deployment
+  1) CI 
+  2) Deployment
 
 ## Prerequisites
 Before you begin, you should have the following tools installed on your local machine: 
