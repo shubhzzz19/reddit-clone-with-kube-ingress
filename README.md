@@ -39,7 +39,7 @@ minikube start --driver=docker
 ## Step 1: Clone the source code
 The first step is to clone the source code for the app. You can do this by using this command git clone 
 ```
-https://github.com/LondheShubham153/reddit-clone-k8s-ingress.git
+https://github.com/shubhzzz19/reddit-clone-with-kube-ingress.git
 ```
 
 ## Step 2: Containerize the Application using Docker
@@ -100,7 +100,7 @@ spec:
     spec:
       containers:
       - name: reddit-clone
-        image: trainwithshubham/reddit-clone
+        image: shubhzzz19/reddit-clone
         ports:
         - containerPort: 3000
 ```
