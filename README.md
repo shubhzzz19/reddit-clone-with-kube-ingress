@@ -139,6 +139,7 @@ kubectl get services
 
 Ingress:
 Pods and services in Kubernetes have their own IP; however, it is normally not the interface you'd provide to the external internet. Though there is a service with node IP configured, the port in the node IP can't be duplicated among the services. It is cumbersome to decide which port to manage with which service. Furthermore, the node comes and goes, it wouldn't be clever to provide a static node IP to an external service. Ingress defines a set of rules that allows the inbound connection to access Kubernetes cluster services. It brings the traffic into the cluster at L7 and allocates and forwards a port on each VM to the service port. This is shown in the following figure. We define a set of rules and post them as source type ingress to the API server. When the traffic comes in, the ingress controller will then fulfill and route the ingress by the ingress rules. As shown in the following figure, ingress is used to route external traffic to the Kubernetes endpoints by different URLs:
+
 <img width="469" alt="225366663-df95fa52-aa91-4633-8ac1-9f7a31979a00" src="https://user-images.githubusercontent.com/73218792/225366997-8c2f9944-1ad6-4191-9566-9a9b245f76f4.png">
 
 
@@ -177,7 +178,7 @@ Minikube doesn't enable ingress by default; we have to enable it first using bel
 ```
 minikube addons enable ingress
 ```
-> If you want to check the current setting for addons in minikube using below command.
+If you want to check the current setting for addons in minikube using below command.
 ```
 minikube addons list
 ```
@@ -187,7 +188,7 @@ Now you can able to create ingress for your service. Use this command to apply i
 kubectl apply -f ingress.yml
 ```
 
-> Verify that the ingress resource is running correctly by using below command. 
+Verify that the ingress resource is running correctly by using below command. 
 ```
 kubectl get ingress ingress-reddit-app
 ```
