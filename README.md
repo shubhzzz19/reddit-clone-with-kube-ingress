@@ -1,4 +1,8 @@
 # Reddit Clone App on Kubernetes with Ingress
+
+![Project Pic](https://github.com/shubhzzz19/reddit-clone-with-kube-ingress/assets/73218792/b856829a-4049-4e62-8055-40f7f6533434)
+
+
 This project demonstrates how to deploy a Reddit clone app on Kubernetes with Ingress and expose it to the world using Minikube as the cluster.
 
 ## AWS Instance details:
